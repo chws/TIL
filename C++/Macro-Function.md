@@ -1,6 +1,6 @@
 ### 매크로
 * /# : Stringizing Operation - 매크로 인자를 문자열로 인식하게 해준다.
-      ```C++
+      ```
       #define stringer(x) printf(#x "\n")
       stringer(Hello\n);
       ```
@@ -11,9 +11,9 @@
       ₩₩
       
 * /## : Token-pasting Operation - 분리되어 있는 2개의 토큰을 하나로 뭉쳐준다.
-      ```C++
-      #define X(n)        x##n
-      #define PRINT(n)    printf("x%d = %d\n", n, x##n)
+      ```\n
+      #define X(n)        x##n                              \n
+      #define PRINT(n)    printf("x%d = %d\n", n, x##n)          \n
       for(int i=0; i<2; i++){
         X(i);
         PRINT(i);

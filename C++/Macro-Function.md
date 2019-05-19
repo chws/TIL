@@ -1,16 +1,16 @@
 ### 매크로
-* /# : Stringizing Operation - 매크로 인자를 문자열로 인식하게 해준다.
+* \# : Stringizing Operation - 매크로 인자를 문자열로 인식하게 해준다.
 
       #define stringer(x) printf(#x "\n")
       stringer(Hello\n);
       
-      
+      ```
       <출력>
-      ₩Hello₩
-      ₩₩
-      ₩₩
+      Hello
       
-* /## : Token-pasting Operation - 분리되어 있는 2개의 토큰을 하나로 뭉쳐준다.
+      ```
+      
+* \## : Token-pasting Operation - 분리되어 있는 2개의 토큰을 하나로 뭉쳐준다.
 
 
       #define X(n)        x##n                              
@@ -21,9 +21,10 @@
       }
 
       
+      ```
       <출력>
-      ₩x0 = 0₩
-      ₩x1 = 1₩
-      
+      x0 = 0
+      x1 = 1
+      ```
       
       

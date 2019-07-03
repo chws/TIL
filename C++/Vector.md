@@ -2,7 +2,7 @@
 ***
 * 벡터 선언하고 입력 값 받을 때 주의해야할 점:
 <pre><code>
-vector"<"int">" arr;
+vector"<int>" arr;
 arr.push_back(input);
 arr[0] = input;
 </pre></code>

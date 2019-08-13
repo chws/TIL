@@ -5,11 +5,11 @@
       #define stringer(x) printf(#x "\n")
       stringer(Hello\n);
       ```
-      ```
+      
+      
       <출력>
       Hello
-      
-      ```
+     
       
 * \## : Token-pasting Operation - 분리되어 있는 2개의 토큰을 하나로 뭉쳐준다.
 

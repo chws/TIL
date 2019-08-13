@@ -12,7 +12,7 @@
       
 * \## : Token-pasting Operation - 분리되어 있는 2개의 토큰을 하나로 뭉쳐준다.
 
-      ```C++
+      ```c++
       #define X(n)        x##n                              
       #define PRINT(n)    printf("x%d = %d\n", n, x##n)          
       for(int i=0; i<2; i++){

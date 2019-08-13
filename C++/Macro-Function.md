@@ -1,11 +1,10 @@
 ### 매크로
 * \# : Stringizing Operation - 매크로 인자를 문자열로 인식하게 해준다.
       
-      ```C++
+      ```c++
       #define stringer(x) printf(#x "\n")
       stringer(Hello\n);
       ```
-      
       
       <출력>
       Hello
